@@ -1,7 +1,7 @@
 package SelfCheckOut_Hardware.devices;
 
-import org.lsmr.selfcheckout.IllegalErrorPhaseSimulationException;
-import org.lsmr.selfcheckout.IllegalPhaseSimulationException;
+import SelfCheckOut_Hardware.IllegalErrorPhaseSimulationException;
+import SelfCheckOut_Hardware.IllegalPhaseSimulationException;
 
 /**
  * A simple interface for devices that accept things.

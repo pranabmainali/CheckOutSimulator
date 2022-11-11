@@ -9,11 +9,11 @@ import java.util.Map;
 
 import javax.sound.sampled.AudioSystem;
 
-import org.lsmr.selfcheckout.Banknote;
-import org.lsmr.selfcheckout.Coin;
-import org.lsmr.selfcheckout.InvalidArgumentSimulationException;
-import org.lsmr.selfcheckout.NullPointerSimulationException;
-import org.lsmr.selfcheckout.SimulationException;
+import SelfCheckOut_Hardware.Banknote;
+import SelfCheckOut_Hardware.Coin;
+import SelfCheckOut_Hardware.InvalidArgumentSimulationException;
+import SelfCheckOut_Hardware.NullPointerSimulationException;
+import SelfCheckOut_Hardware.SimulationException;
 
 /**
  * Simulates the overall self-checkout station.

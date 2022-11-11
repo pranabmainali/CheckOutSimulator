@@ -1,6 +1,6 @@
 package SelfCheckOut_Hardware.devices.observers;
 
-import org.lsmr.selfcheckout.devices.BanknoteStorageUnit;
+import SelfCheckOut_Hardware.devices.BanknoteStorageUnit;
 
 /**
  * Observes events emanating from a banknote storage unit.

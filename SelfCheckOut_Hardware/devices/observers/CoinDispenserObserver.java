@@ -1,7 +1,6 @@
 package SelfCheckOut_Hardware.devices.observers;
-
-import org.lsmr.selfcheckout.Coin;
-import org.lsmr.selfcheckout.devices.CoinDispenser;
+import SelfCheckOut_Hardware.Coin;
+import SelfCheckOut_Hardware.devices.CoinDispenser;
 
 /**
  * Observes events emanating from a coin dispenser.

@@ -1,6 +1,6 @@
 package SelfCheckOut_Hardware.devices.observers;
 
-import org.lsmr.selfcheckout.devices.ReceiptPrinter;
+import SelfCheckOut_Hardware.devices.ReceiptPrinter;
 
 /**
  * Observes events emanating from a receipt printer.

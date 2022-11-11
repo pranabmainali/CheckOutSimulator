@@ -1,6 +1,6 @@
 package SelfCheckOut_Hardware.devices.observers;
 
-import org.lsmr.selfcheckout.devices.CoinSlot;
+import SelfCheckOut_Hardware.devices.CoinSlot;
 
 /**
  * Observes events emanating from a coin slot.

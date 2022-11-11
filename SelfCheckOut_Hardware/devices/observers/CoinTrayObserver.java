@@ -1,6 +1,6 @@
 package SelfCheckOut_Hardware.devices.observers;
 
-import org.lsmr.selfcheckout.devices.CoinTray;
+import SelfCheckOut_Hardware.devices.CoinTray;
 
 /**
  * Observes events emanating from a coin tray. Coin trays are dumb devices so

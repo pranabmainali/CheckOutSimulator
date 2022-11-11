@@ -2,7 +2,7 @@ package SelfCheckOut_Hardware.devices.observers;
 
 import java.util.Currency;
 
-import org.lsmr.selfcheckout.devices.BanknoteValidator;
+import SelfCheckOut_Hardware.devices.BanknoteValidator;
 
 /**
  * Observes events emanating from a banknote validator.

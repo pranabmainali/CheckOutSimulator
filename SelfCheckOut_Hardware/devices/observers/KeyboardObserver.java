@@ -1,6 +1,6 @@
 package SelfCheckOut_Hardware.devices.observers;
 
-import org.lsmr.selfcheckout.devices.Keyboard;
+import SelfCheckOut_Hardware.devices.Keyboard;
 
 /**
  * Observes events emanating from a keyboard.

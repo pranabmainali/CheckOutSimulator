@@ -1,6 +1,6 @@
 package SelfCheckOut_Hardware.devices.observers;
 
-import org.lsmr.selfcheckout.devices.ElectronicScale;
+import SelfCheckOut_Hardware.devices.ElectronicScale;
 
 /**
  * Observes events emanating from an electronic scale.

@@ -2,7 +2,7 @@ package SelfCheckOut_Hardware.devices.observers;
 
 import java.math.BigDecimal;
 
-import org.lsmr.selfcheckout.devices.CoinValidator;
+import SelfCheckOut_Hardware.devices.CoinValidator;
 
 /**
  * Observes events emanating from a coin validator.

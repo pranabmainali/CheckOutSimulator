@@ -6,7 +6,7 @@ package SelfCheckOut_Software.software.gui;
 
 import SelfCheckOut_Hardware.PriceLookupCode;
 
-import ca.ucalgary.seng300.selfcheckout.software.SelfCheckoutStationLogic;
+import SelfCheckOut_Software.software.SelfCheckoutStationLogic;
 
 /**
  *

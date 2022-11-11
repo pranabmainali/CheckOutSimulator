@@ -1,7 +1,7 @@
 package SelfCheckOut_Hardware.devices.observers;
 
-import org.lsmr.selfcheckout.Barcode;
-import org.lsmr.selfcheckout.devices.BarcodeScanner;
+import SelfCheckOut_Hardware.Barcode;
+import SelfCheckOut_Hardware.devices.BarcodeScanner;
 
 /**
  * Observes events emanating from a barcode scanner.
