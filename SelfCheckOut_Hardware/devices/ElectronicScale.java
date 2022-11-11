@@ -3,14 +3,14 @@ package SelfCheckOut_Hardware.devices;
 import java.util.ArrayList;
 import java.util.Random;
 
-import org.lsmr.selfcheckout.IllegalConfigurationPhaseSimulationException;
-import org.lsmr.selfcheckout.IllegalErrorPhaseSimulationException;
-import org.lsmr.selfcheckout.IllegalPhaseSimulationException;
-import org.lsmr.selfcheckout.InvalidArgumentSimulationException;
-import org.lsmr.selfcheckout.Item;
-import org.lsmr.selfcheckout.NullPointerSimulationException;
-import org.lsmr.selfcheckout.SimulationException;
-import org.lsmr.selfcheckout.devices.observers.ElectronicScaleObserver;
+import SelfCheckOut_Hardware.IllegalConfigurationPhaseSimulationException;
+import SelfCheckOut_Hardware.IllegalErrorPhaseSimulationException;
+import SelfCheckOut_Hardware.IllegalPhaseSimulationException;
+import SelfCheckOut_Hardware.InvalidArgumentSimulationException;
+import SelfCheckOut_Hardware.Item;
+import SelfCheckOut_Hardware.NullPointerSimulationException;
+import SelfCheckOut_Hardware.SimulationException;
+import SelfCheckOut_Hardware.devices.observers.ElectronicScaleObserver;
 
 /**
  * Represents a device for weighing items. This device has a weight limit, so

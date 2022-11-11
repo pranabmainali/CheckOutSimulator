@@ -1,15 +1,15 @@
 package SelfCheckOut_Software.software.additems;
 
-import org.lsmr.selfcheckout.Barcode;
-import org.lsmr.selfcheckout.devices.BarcodeScanner;
-import org.lsmr.selfcheckout.devices.SelfCheckoutStation;
-import org.lsmr.selfcheckout.devices.observers.BarcodeScannerObserver;
-import org.lsmr.selfcheckout.external.ProductDatabases;
-import org.lsmr.selfcheckout.products.BarcodedProduct;
+import SelfCheckOut_Hardware.Barcode;
+import SelfCheckOut_Hardware.devices.BarcodeScanner;
+import SelfCheckOut_Hardware.devices.SelfCheckoutStation;
+import SelfCheckOut_Hardware.devices.observers.BarcodeScannerObserver;
+import SelfCheckOut_Hardware.external.ProductDatabases;
+import SelfCheckOut_Hardware.products.BarcodedProduct;
 
-import ca.ucalgary.seng300.selfcheckout.software.SelfCheckoutStationLogic;
-import ca.ucalgary.seng300.selfcheckout.software.SelfCheckoutStationObserverLogic;
-import ca.ucalgary.seng300.selfcheckout.software.SelfCheckoutStationPhases.minorPhase;
+import SelfCheckOut_Software.software.SelfCheckoutStationLogic;
+import SelfCheckOut_Software.software.SelfCheckoutStationObserverLogic;
+import SelfCheckOut_Software.software.SelfCheckoutStationPhases.minorPhase;
 
 public class BarcodeScannerObserverLogic extends SelfCheckoutStationObserverLogic
 	implements BarcodeScannerObserver {

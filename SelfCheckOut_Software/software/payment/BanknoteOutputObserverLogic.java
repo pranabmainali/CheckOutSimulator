@@ -1,10 +1,10 @@
 package SelfCheckOut_Software.software.payment;
 
-import org.lsmr.selfcheckout.devices.BanknoteSlot;
-import org.lsmr.selfcheckout.devices.SelfCheckoutStation;
-import org.lsmr.selfcheckout.devices.observers.BanknoteSlotObserver;
+import SelfCheckOut_Hardware.devices.BanknoteSlot;
+import SelfCheckOut_Hardware.devices.SelfCheckoutStation;
+import SelfCheckOut_Hardware.devices.observers.BanknoteSlotObserver;
 
-import ca.ucalgary.seng300.selfcheckout.software.SelfCheckoutStationObserverLogic;
+import SelfCheckOut_Software.software.SelfCheckoutStationObserverLogic;
 
 public class BanknoteOutputObserverLogic extends SelfCheckoutStationObserverLogic
 	implements BanknoteSlotObserver {

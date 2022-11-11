@@ -1,10 +1,10 @@
 package SelfCheckOut_Software.software.additems;
 
-import org.lsmr.selfcheckout.devices.ElectronicScale;
-import org.lsmr.selfcheckout.devices.SelfCheckoutStation;
-import org.lsmr.selfcheckout.devices.observers.ElectronicScaleObserver;
+import SelfCheckOut_Hardware.devices.ElectronicScale;
+import SelfCheckOut_Hardware.devices.SelfCheckoutStation;
+import SelfCheckOut_Hardware.devices.observers.ElectronicScaleObserver;
 
-import ca.ucalgary.seng300.selfcheckout.software.SelfCheckoutStationObserverLogic;
+import SelfCheckOut_Software.software.SelfCheckoutStationObserverLogic;
 
 public class ScanningAreaObserverLogic extends SelfCheckoutStationObserverLogic
 	implements ElectronicScaleObserver {

@@ -2,11 +2,11 @@ package SelfCheckOut_Hardware.devices;
 
 import java.util.ArrayList;
 
-import org.lsmr.selfcheckout.IllegalConfigurationPhaseSimulationException;
-import org.lsmr.selfcheckout.IllegalErrorPhaseSimulationException;
-import org.lsmr.selfcheckout.IllegalPhaseSimulationException;
-import org.lsmr.selfcheckout.NullPointerSimulationException;
-import org.lsmr.selfcheckout.devices.observers.AbstractDeviceObserver;
+import SelfCheckOut_Hardware.IllegalConfigurationPhaseSimulationException;
+import SelfCheckOut_Hardware.IllegalErrorPhaseSimulationException;
+import SelfCheckOut_Hardware.IllegalPhaseSimulationException;
+import SelfCheckOut_Hardware.NullPointerSimulationException;
+import SelfCheckOut_Hardware.devices.observers.AbstractDeviceObserver;
 
 /**
  * The abstract base class for all devices involved in the simulator.

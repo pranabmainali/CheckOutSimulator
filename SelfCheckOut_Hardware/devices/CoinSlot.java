@@ -1,13 +1,13 @@
 package SelfCheckOut_Hardware.devices;
 
-import org.lsmr.selfcheckout.Coin;
-import org.lsmr.selfcheckout.IllegalConfigurationPhaseSimulationException;
-import org.lsmr.selfcheckout.IllegalErrorPhaseSimulationException;
-import org.lsmr.selfcheckout.IllegalNormalPhaseSimulationException;
-import org.lsmr.selfcheckout.IllegalPhaseSimulationException;
-import org.lsmr.selfcheckout.NullPointerSimulationException;
-import org.lsmr.selfcheckout.SimulationException;
-import org.lsmr.selfcheckout.devices.observers.CoinSlotObserver;
+import SelfCheckOut_Hardware.Coin;
+import SelfCheckOut_Hardware.IllegalConfigurationPhaseSimulationException;
+import SelfCheckOut_Hardware.IllegalErrorPhaseSimulationException;
+import SelfCheckOut_Hardware.IllegalNormalPhaseSimulationException;
+import SelfCheckOut_Hardware.IllegalPhaseSimulationException;
+import SelfCheckOut_Hardware.NullPointerSimulationException;
+import SelfCheckOut_Hardware.SimulationException;
+import SelfCheckOut_Hardware.devices.observers.CoinSlotObserver;
 
 /**
  * Represents a simple coin slot device that has one output channel. The slot is

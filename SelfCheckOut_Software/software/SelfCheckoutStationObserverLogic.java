@@ -1,7 +1,7 @@
 package SelfCheckOut_Software.software;
 
-import org.lsmr.selfcheckout.devices.AbstractDevice;
-import org.lsmr.selfcheckout.devices.observers.AbstractDeviceObserver;
+import SelfCheckOut_Hardware.devices.AbstractDevice;
+import SelfCheckOut_Hardware.devices.observers.AbstractDeviceObserver;
 
 public class SelfCheckoutStationObserverLogic implements AbstractDeviceObserver {
 

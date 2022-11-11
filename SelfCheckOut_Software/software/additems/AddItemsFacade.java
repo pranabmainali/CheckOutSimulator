@@ -8,16 +8,16 @@ import java.util.List;
 import java.util.ListIterator;
 import java.util.Map;
 
-import org.lsmr.selfcheckout.PriceLookupCode;
-import org.lsmr.selfcheckout.devices.OverloadException;
-import org.lsmr.selfcheckout.devices.SelfCheckoutStation;
-import org.lsmr.selfcheckout.external.ProductDatabases;
-import org.lsmr.selfcheckout.products.BarcodedProduct;
-import org.lsmr.selfcheckout.products.PLUCodedProduct;
-import org.lsmr.selfcheckout.products.Product;
+import SelfCheckOut_Hardware.PriceLookupCode;
+import SelfCheckOut_Hardware.devices.OverloadException;
+import SelfCheckOut_Hardware.devices.SelfCheckoutStation;
+import SelfCheckOut_Hardware.external.ProductDatabases;
+import SelfCheckOut_Hardware.products.BarcodedProduct;
+import SelfCheckOut_Hardware.products.PLUCodedProduct;
+import SelfCheckOut_Hardware.products.Product;
 
-import ca.ucalgary.seng300.selfcheckout.software.SelfCheckoutStationLogic;
-import ca.ucalgary.seng300.selfcheckout.software.SelfCheckoutStationPhases.minorPhase;
+import SelfCheckOut_Software.software.SelfCheckoutStationLogic;
+import SelfCheckOut_Software.software.SelfCheckoutStationPhases.minorPhase;
 
 public class AddItemsFacade {
 	private SelfCheckoutStation scs;

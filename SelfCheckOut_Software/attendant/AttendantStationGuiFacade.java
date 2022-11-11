@@ -2,11 +2,11 @@ package SelfCheckOut_Software.attendant;
 
 import javax.swing.JFrame;
 
-import org.lsmr.selfcheckout.devices.SupervisionStation;
+import SelfCheckOut_Hardware.devices.SupervisionStation;
 
-import ca.ucalgary.seng300.selfcheckout.software.gui.AttendantLoginPanel;
-import ca.ucalgary.seng300.selfcheckout.software.gui.AttendantVisCat;
-import ca.ucalgary.seng300.selfcheckout.software.gui.StationManagerPanel;
+import SelfCheckOut_Software.software.gui.AttendantLoginPanel;
+import SelfCheckOut_Software.software.gui.AttendantVisCat;
+import SelfCheckOut_Software.software.gui.StationManagerPanel;
 
 public class AttendantStationGuiFacade {
 

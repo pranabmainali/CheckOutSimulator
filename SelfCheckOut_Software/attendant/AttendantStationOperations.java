@@ -3,16 +3,16 @@ package SelfCheckOut_Software.attendant;
 import java.math.BigDecimal;
 import java.util.Currency;
 
-import org.lsmr.selfcheckout.Banknote;
-import org.lsmr.selfcheckout.Coin;
-import org.lsmr.selfcheckout.SimulationException;
-import org.lsmr.selfcheckout.devices.BanknoteDispenser;
-import org.lsmr.selfcheckout.devices.CoinDispenser;
-import org.lsmr.selfcheckout.devices.OverloadException;
-import org.lsmr.selfcheckout.devices.SelfCheckoutStation;
+import SelfCheckOut_Hardware.Banknote;
+import SelfCheckOut_Hardware.Coin;
+import SelfCheckOut_Hardware.SimulationException;
+import SelfCheckOut_Hardware.devices.BanknoteDispenser;
+import SelfCheckOut_Hardware.devices.CoinDispenser;
+import SelfCheckOut_Hardware.devices.OverloadException;
+import SelfCheckOut_Hardware.devices.SelfCheckoutStation;
 
-import ca.ucalgary.seng300.selfcheckout.software.SelfCheckoutStationLogic;
-import ca.ucalgary.seng300.selfcheckout.software.SelfCheckoutStationPhases.minorPhase;
+import SelfCheckOut_Software.software.SelfCheckoutStationLogic;
+import SelfCheckOut_Software.software.SelfCheckoutStationPhases.minorPhase;
 
 public class AttendantStationOperations {
 	private AttendantStationLogic asl;

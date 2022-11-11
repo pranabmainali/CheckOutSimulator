@@ -3,10 +3,10 @@ package SelfCheckOut_Software.attendant;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.lsmr.selfcheckout.devices.SelfCheckoutStation;
-import org.lsmr.selfcheckout.devices.SupervisionStation;
+import SelfCheckOut_Hardware.devices.SelfCheckoutStation;
+import SelfCheckOut_Hardware.devices.SupervisionStation;
 
-import ca.ucalgary.seng300.selfcheckout.software.SelfCheckoutStationLogic;
+import SelfCheckOut_Software.software.SelfCheckoutStationLogic;
 
 public class AttendantStationLogic {
 	protected SupervisionStation ss;

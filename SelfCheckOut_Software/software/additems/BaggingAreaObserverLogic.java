@@ -1,13 +1,13 @@
 package SelfCheckOut_Software.software.additems;
 
-import org.lsmr.selfcheckout.devices.ElectronicScale;
-import org.lsmr.selfcheckout.devices.OverloadException;
-import org.lsmr.selfcheckout.devices.SelfCheckoutStation;
-import org.lsmr.selfcheckout.devices.observers.ElectronicScaleObserver;
+import SelfCheckOut_Hardware.devices.ElectronicScale;
+import SelfCheckOut_Hardware.devices.OverloadException;
+import SelfCheckOut_Hardware.devices.SelfCheckoutStation;
+import SelfCheckOut_Hardware.devices.observers.ElectronicScaleObserver;
 
-import ca.ucalgary.seng300.selfcheckout.software.SelfCheckoutStationLogic;
-import ca.ucalgary.seng300.selfcheckout.software.SelfCheckoutStationObserverLogic;
-import ca.ucalgary.seng300.selfcheckout.software.SelfCheckoutStationPhases.minorPhase;
+import SelfCheckOut_Software.software.SelfCheckoutStationLogic;
+import SelfCheckOut_Software.software.SelfCheckoutStationObserverLogic;
+import SelfCheckOut_Software.software.SelfCheckoutStationPhases.minorPhase;
 
 public class BaggingAreaObserverLogic extends SelfCheckoutStationObserverLogic
 	implements ElectronicScaleObserver {

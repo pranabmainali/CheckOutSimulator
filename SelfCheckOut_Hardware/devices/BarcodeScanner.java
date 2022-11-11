@@ -2,14 +2,14 @@ package SelfCheckOut_Hardware.devices;
 
 import java.util.Random;
 
-import org.lsmr.selfcheckout.BarcodedItem;
-import org.lsmr.selfcheckout.IllegalConfigurationPhaseSimulationException;
-import org.lsmr.selfcheckout.IllegalErrorPhaseSimulationException;
-import org.lsmr.selfcheckout.IllegalPhaseSimulationException;
-import org.lsmr.selfcheckout.Item;
-import org.lsmr.selfcheckout.NullPointerSimulationException;
-import org.lsmr.selfcheckout.SimulationException;
-import org.lsmr.selfcheckout.devices.observers.BarcodeScannerObserver;
+import SelfCheckOut_Hardware.BarcodedItem;
+import SelfCheckOut_Hardware.IllegalConfigurationPhaseSimulationException;
+import SelfCheckOut_Hardware.IllegalErrorPhaseSimulationException;
+import SelfCheckOut_Hardware.IllegalPhaseSimulationException;
+import SelfCheckOut_Hardware.Item;
+import SelfCheckOut_Hardware.NullPointerSimulationException;
+import SelfCheckOut_Hardware.SimulationException;
+import SelfCheckOut_Hardware.devices.observers.BarcodeScannerObserver;
 
 /**
  * A complex device hidden behind a simple simulation. They can scan and that is

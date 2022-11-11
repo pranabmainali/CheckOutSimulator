@@ -1,6 +1,6 @@
 package SelfCheckOut_Software.software;
 
-import org.lsmr.selfcheckout.devices.SelfCheckoutStation;
+import SelfCheckOut_Hardware.devices.SelfCheckoutStation;
 
 /**
  * For the phase to be in a given state, it implies everything else has been validated with respect to that state.

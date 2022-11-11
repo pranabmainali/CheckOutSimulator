@@ -2,17 +2,17 @@ package SelfCheckOut_Software.software.payment;
 
 import java.math.BigDecimal;
 
-import org.lsmr.selfcheckout.Card.CardData;
-import org.lsmr.selfcheckout.Card.CardSwipeData;
-import org.lsmr.selfcheckout.devices.CardReader;
-import org.lsmr.selfcheckout.devices.SelfCheckoutStation;
-import org.lsmr.selfcheckout.devices.observers.CardReaderObserver;
-import org.lsmr.selfcheckout.external.CardIssuer;
+import SelfCheckOut_Hardware.Card.CardData;
+import SelfCheckOut_Hardware.Card.CardSwipeData;
+import SelfCheckOut_Hardware.devices.CardReader;
+import SelfCheckOut_Hardware.devices.SelfCheckoutStation;
+import SelfCheckOut_Hardware.devices.observers.CardReaderObserver;
+import SelfCheckOut_Hardware.external.CardIssuer;
 
-import ca.ucalgary.seng300.selfcheckout.software.SelfCheckoutStationDatabase;
-import ca.ucalgary.seng300.selfcheckout.software.SelfCheckoutStationLogic;
-import ca.ucalgary.seng300.selfcheckout.software.SelfCheckoutStationObserverLogic;
-import ca.ucalgary.seng300.selfcheckout.software.SelfCheckoutStationPhases.minorPhase;
+import SelfCheckOut_Software.software.SelfCheckoutStationDatabase;
+import SelfCheckOut_Software.software.SelfCheckoutStationLogic;
+import SelfCheckOut_Software.software.SelfCheckoutStationObserverLogic;
+import SelfCheckOut_Software.software.SelfCheckoutStationPhases.minorPhase;
 
 public class CardReaderObserverLogic extends SelfCheckoutStationObserverLogic
 	implements CardReaderObserver {

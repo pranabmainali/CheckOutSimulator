@@ -2,7 +2,7 @@ package SelfCheckOut_Software.software.additems;
 
 import java.util.concurrent.TimeUnit;
 
-import ca.ucalgary.seng300.selfcheckout.software.SelfCheckoutStationLogic;
+import SelfCheckOut_Software.software.SelfCheckoutStationLogic;
 
 public class BaggingAreaTimer extends Thread {
 	private SelfCheckoutStationLogic scsl;

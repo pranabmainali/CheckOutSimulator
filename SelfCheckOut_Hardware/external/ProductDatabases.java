@@ -4,11 +4,11 @@ package SelfCheckOut_Hardware.external;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.lsmr.selfcheckout.Barcode;
-import org.lsmr.selfcheckout.PriceLookupCode;
-import org.lsmr.selfcheckout.products.BarcodedProduct;
-import org.lsmr.selfcheckout.products.PLUCodedProduct;
-import org.lsmr.selfcheckout.products.Product;
+import SelfCheckOut_Hardware.Barcode;
+import SelfCheckOut_Hardware.PriceLookupCode;
+import SelfCheckOut_Hardware.products.BarcodedProduct;
+import SelfCheckOut_Hardware.products.PLUCodedProduct;
+import SelfCheckOut_Hardware.products.Product;
 
 /**
  * Represents a cheap and dirty version of a set of databases that the

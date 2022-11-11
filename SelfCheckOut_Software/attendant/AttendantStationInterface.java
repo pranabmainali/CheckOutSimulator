@@ -1,12 +1,12 @@
 package SelfCheckOut_Software.attendant;
 
-import org.lsmr.selfcheckout.*;
-import org.lsmr.selfcheckout.devices.SelfCheckoutStation;
-import org.lsmr.selfcheckout.products.Product;
+import SelfCheckOut_Hardware.*;
+import SelfCheckOut_Hardware.devices.SelfCheckoutStation;
+import SelfCheckOut_Hardware.products.Product;
 
-import ca.ucalgary.seng300.selfcheckout.software.SelfCheckoutStationLogic;
-import ca.ucalgary.seng300.selfcheckout.software.SelfCheckoutStationPhases.minorPhase;
-import ca.ucalgary.seng300.selfcheckout.software.gui.Dialog;
+import SelfCheckOut_Software.software.SelfCheckoutStationLogic;
+import SelfCheckOut_Software.software.SelfCheckoutStationPhases.minorPhase;
+import SelfCheckOut_Software.software.gui.Dialog;
 
 public class AttendantStationInterface {
 	private final AttendantStationLogic asl;

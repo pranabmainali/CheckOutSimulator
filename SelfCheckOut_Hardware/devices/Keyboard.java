@@ -1,10 +1,10 @@
 package SelfCheckOut_Hardware.devices;
 
-import org.lsmr.selfcheckout.IllegalConfigurationPhaseSimulationException;
-import org.lsmr.selfcheckout.IllegalErrorPhaseSimulationException;
-import org.lsmr.selfcheckout.IllegalPhaseSimulationException;
-import org.lsmr.selfcheckout.NullPointerSimulationException;
-import org.lsmr.selfcheckout.devices.observers.KeyboardObserver;
+import SelfCheckOut_Hardware.IllegalConfigurationPhaseSimulationException;
+import SelfCheckOut_Hardware.IllegalErrorPhaseSimulationException;
+import SelfCheckOut_Hardware.IllegalPhaseSimulationException;
+import SelfCheckOut_Hardware.NullPointerSimulationException;
+import SelfCheckOut_Hardware.devices.observers.KeyboardObserver;
 
 /**
  * Represents a device with a set of keys that permit manual entry of text. This

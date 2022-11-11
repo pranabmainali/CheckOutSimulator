@@ -2,13 +2,13 @@ package SelfCheckOut_Software.software;
 
 import java.math.BigDecimal;
 
-import ca.ucalgary.seng300.selfcheckout.software.gui.GuiFacade;
-import org.lsmr.selfcheckout.devices.SelfCheckoutStation;
+import SelfCheckOut_Software.software.gui.GuiFacade;
+import SelfCheckOut_Hardware.devices.SelfCheckoutStation;
 
-import ca.ucalgary.seng300.selfcheckout.attendant.AttendantStationLogic;
-import ca.ucalgary.seng300.selfcheckout.software.SelfCheckoutStationPhases.minorPhase;
-import ca.ucalgary.seng300.selfcheckout.software.additems.AddItemsFacade;
-import ca.ucalgary.seng300.selfcheckout.software.payment.PaymentFacade;
+import SelfCheckOut_Software.attendant.AttendantStationLogic;
+import SelfCheckOut_Software.software.SelfCheckoutStationPhases.minorPhase;
+import SelfCheckOut_Software.software.additems.AddItemsFacade;
+import SelfCheckOut_Software.software.payment.PaymentFacade;
 
 public class SelfCheckoutStationLogic {
 	private SelfCheckoutStation scs;

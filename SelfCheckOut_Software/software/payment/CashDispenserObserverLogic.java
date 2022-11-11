@@ -4,16 +4,16 @@ import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.Map;
 
-import org.lsmr.selfcheckout.Banknote;
-import org.lsmr.selfcheckout.Coin;
-import org.lsmr.selfcheckout.devices.BanknoteDispenser;
-import org.lsmr.selfcheckout.devices.CoinDispenser;
-import org.lsmr.selfcheckout.devices.SelfCheckoutStation;
-import org.lsmr.selfcheckout.devices.observers.BanknoteDispenserObserver;
-import org.lsmr.selfcheckout.devices.observers.CoinDispenserObserver;
+import SelfCheckOut_Hardware.Banknote;
+import SelfCheckOut_Hardware.Coin;
+import SelfCheckOut_Hardware.devices.BanknoteDispenser;
+import SelfCheckOut_Hardware.devices.CoinDispenser;
+import SelfCheckOut_Hardware.devices.SelfCheckoutStation;
+import SelfCheckOut_Hardware.devices.observers.BanknoteDispenserObserver;
+import SelfCheckOut_Hardware.devices.observers.CoinDispenserObserver;
 
-import ca.ucalgary.seng300.selfcheckout.software.SelfCheckoutStationLogic;
-import ca.ucalgary.seng300.selfcheckout.software.SelfCheckoutStationObserverLogic;
+import SelfCheckOut_Software.software.SelfCheckoutStationLogic;
+import SelfCheckOut_Software.software.SelfCheckoutStationObserverLogic;
 
 public class CashDispenserObserverLogic extends SelfCheckoutStationObserverLogic
 	implements BanknoteDispenserObserver, CoinDispenserObserver {

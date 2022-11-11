@@ -1,11 +1,11 @@
 package SelfCheckOut_Software.software.gui;
 
-import ca.ucalgary.seng300.selfcheckout.software.*;
-import ca.ucalgary.seng300.selfcheckout.software.SelfCheckoutStationPhases.*;
-import org.lsmr.selfcheckout.devices.SelfCheckoutStation;
-import org.lsmr.selfcheckout.products.BarcodedProduct;
-import org.lsmr.selfcheckout.products.PLUCodedProduct;
-import org.lsmr.selfcheckout.products.Product;
+import SelfCheckOut_Software.software.*;
+import SelfCheckOut_Software.software.SelfCheckoutStationPhases.*;
+import SelfCheckOut_Hardware.devices.SelfCheckoutStation;
+import SelfCheckOut_Hardware.products.BarcodedProduct;
+import SelfCheckOut_Hardware.products.PLUCodedProduct;
+import SelfCheckOut_Hardware.products.Product;
 
 import javax.swing.*;
 import java.math.BigDecimal;

@@ -2,9 +2,9 @@ package SelfCheckOut_Hardware.products;
 
 import java.math.BigDecimal;
 
-import org.lsmr.selfcheckout.InvalidArgumentSimulationException;
-import org.lsmr.selfcheckout.NullPointerSimulationException;
-import org.lsmr.selfcheckout.SimulationException;
+import SelfCheckOut_Hardware.InvalidArgumentSimulationException;
+import SelfCheckOut_Hardware.NullPointerSimulationException;
+import SelfCheckOut_Hardware.SimulationException;
 
 /**
  * Abstract base class for products. Note that a "product" is the <b>kind</> of

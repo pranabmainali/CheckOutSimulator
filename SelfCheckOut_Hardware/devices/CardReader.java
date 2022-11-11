@@ -3,15 +3,15 @@ package SelfCheckOut_Hardware.devices;
 import java.io.IOException;
 import java.util.concurrent.ThreadLocalRandom;
 
-import org.lsmr.selfcheckout.Card;
-import org.lsmr.selfcheckout.Card.CardData;
-import org.lsmr.selfcheckout.ChipFailureException;
-import org.lsmr.selfcheckout.IllegalConfigurationPhaseSimulationException;
-import org.lsmr.selfcheckout.IllegalErrorPhaseSimulationException;
-import org.lsmr.selfcheckout.IllegalPhaseSimulationException;
-import org.lsmr.selfcheckout.MagneticStripeFailureException;
-import org.lsmr.selfcheckout.SimulationException;
-import org.lsmr.selfcheckout.devices.observers.CardReaderObserver;
+import SelfCheckOut_Hardware.Card;
+import SelfCheckOut_Hardware.Card.CardData;
+import SelfCheckOut_Hardware.ChipFailureException;
+import SelfCheckOut_Hardware.IllegalConfigurationPhaseSimulationException;
+import SelfCheckOut_Hardware.IllegalErrorPhaseSimulationException;
+import SelfCheckOut_Hardware.IllegalPhaseSimulationException;
+import SelfCheckOut_Hardware.MagneticStripeFailureException;
+import SelfCheckOut_Hardware.SimulationException;
+import SelfCheckOut_Hardware.devices.observers.CardReaderObserver;
 
 /**
  * Represents the card reader, capable of tap, chip insert, and swipe. Either

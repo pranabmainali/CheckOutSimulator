@@ -1,6 +1,6 @@
 package SelfCheckOut_Software.software.gui;
 
-import ca.ucalgary.seng300.selfcheckout.software.SelfCheckoutStationLogic;
+import SelfCheckOut_Software.software.SelfCheckoutStationLogic;
 
 public class ThankYouPanel extends AbstractSCSGuiPanel {
 	private static final long serialVersionUID = 465797331314367129L;;

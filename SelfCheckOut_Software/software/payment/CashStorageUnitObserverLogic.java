@@ -1,14 +1,14 @@
 package SelfCheckOut_Software.software.payment;
 
-import org.lsmr.selfcheckout.devices.BanknoteStorageUnit;
-import org.lsmr.selfcheckout.devices.CoinStorageUnit;
-import org.lsmr.selfcheckout.devices.SelfCheckoutStation;
-import org.lsmr.selfcheckout.devices.observers.BanknoteStorageUnitObserver;
-import org.lsmr.selfcheckout.devices.observers.CoinStorageUnitObserver;
+import SelfCheckOut_Hardware.devices.BanknoteStorageUnit;
+import SelfCheckOut_Hardware.devices.CoinStorageUnit;
+import SelfCheckOut_Hardware.devices.SelfCheckoutStation;
+import SelfCheckOut_Hardware.devices.observers.BanknoteStorageUnitObserver;
+import SelfCheckOut_Hardware.devices.observers.CoinStorageUnitObserver;
 
-import ca.ucalgary.seng300.selfcheckout.software.SelfCheckoutStationLogic;
-import ca.ucalgary.seng300.selfcheckout.software.SelfCheckoutStationObserverLogic;
-import ca.ucalgary.seng300.selfcheckout.software.SelfCheckoutStationPhases.minorPhase;
+import SelfCheckOut_Software.software.SelfCheckoutStationLogic;
+import SelfCheckOut_Software.software.SelfCheckoutStationObserverLogic;
+import SelfCheckOut_Software.software.SelfCheckoutStationPhases.minorPhase;
 
 public class CashStorageUnitObserverLogic extends SelfCheckoutStationObserverLogic
 	implements BanknoteStorageUnitObserver, CoinStorageUnitObserver {

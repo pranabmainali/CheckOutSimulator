@@ -1,6 +1,6 @@
 package SelfCheckOut_Software.software.gui;
 
-import ca.ucalgary.seng300.selfcheckout.software.*;
+import SelfCheckOut_Software.software.*;
 import javax.swing.*;
 
 public class AbstractSCSGuiPanel extends JPanel {

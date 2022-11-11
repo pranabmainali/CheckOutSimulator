@@ -6,7 +6,7 @@ import java.awt.event.WindowEvent;
 import javax.swing.JFrame;
 import javax.swing.SwingUtilities;
 
-import org.lsmr.selfcheckout.devices.observers.TouchScreenObserver;
+import SelfCheckOut_Hardware.devices.observers.TouchScreenObserver;
 
 /**
  * A device for display and customer input. It displays a {@link JFrame} object

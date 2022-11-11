@@ -1,9 +1,9 @@
 package SelfCheckOut_Software.software;
 
 import java.math.*;
-import org.lsmr.selfcheckout.*;
-import ca.ucalgary.seng300.selfcheckout.software.SelfCheckoutStationPhases.minorPhase;
-import org.lsmr.selfcheckout.products.Product;
+import SelfCheckOut_Hardware.*;
+import SelfCheckOut_Software.software.SelfCheckoutStationPhases.minorPhase;
+import SelfCheckOut_Hardware.products.Product;
 import javax.swing.*;
 
 public class SelfCheckoutStationInterface {

@@ -2,8 +2,8 @@ package SelfCheckOut_Hardware.products;
 
 import java.math.BigDecimal;
 
-import org.lsmr.selfcheckout.NullPointerSimulationException;
-import org.lsmr.selfcheckout.PriceLookupCode;
+import SelfCheckOut_Hardware.NullPointerSimulationException;
+import SelfCheckOut_Hardware.PriceLookupCode;
 
 /**
  * Represents products with price-lookup (PLU) codes. Such products always have

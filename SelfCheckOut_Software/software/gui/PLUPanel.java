@@ -1,9 +1,9 @@
 package SelfCheckOut_Software.software.gui;
 
 import ca.ucalgary.seng300.selfcheckout.software.SelfCheckoutStationLogic;
-import org.lsmr.selfcheckout.PriceLookupCode;
-import org.lsmr.selfcheckout.external.ProductDatabases;
-import org.lsmr.selfcheckout.products.PLUCodedProduct;
+import SelfCheckOut_Hardware.PriceLookupCode;
+import SelfCheckOut_Hardware.external.ProductDatabases;
+import SelfCheckOut_Hardware.products.PLUCodedProduct;
 
 import javax.swing.*;
 

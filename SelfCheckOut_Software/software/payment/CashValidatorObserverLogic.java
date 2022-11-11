@@ -3,13 +3,13 @@ package SelfCheckOut_Software.software.payment;
 import java.util.Currency;
 import java.math.BigDecimal;
 
-import org.lsmr.selfcheckout.devices.BanknoteValidator;
-import org.lsmr.selfcheckout.devices.CoinValidator;
-import org.lsmr.selfcheckout.devices.SelfCheckoutStation;
-import org.lsmr.selfcheckout.devices.observers.BanknoteValidatorObserver;
-import org.lsmr.selfcheckout.devices.observers.CoinValidatorObserver;
+import SelfCheckOut_Hardware.devices.BanknoteValidator;
+import SelfCheckOut_Hardware.devices.CoinValidator;
+import SelfCheckOut_Hardware.devices.SelfCheckoutStation;
+import SelfCheckOut_Hardware.devices.observers.BanknoteValidatorObserver;
+import SelfCheckOut_Hardware.devices.observers.CoinValidatorObserver;
 
-import ca.ucalgary.seng300.selfcheckout.software.SelfCheckoutStationObserverLogic;
+import SelfCheckOut_Software.software.SelfCheckoutStationObserverLogic;
 
 public class CashValidatorObserverLogic extends SelfCheckoutStationObserverLogic
 	implements BanknoteValidatorObserver, CoinValidatorObserver {

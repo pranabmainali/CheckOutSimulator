@@ -4,9 +4,9 @@
  */
 package SelfCheckOut_Software.software.gui;
 
-import ca.ucalgary.seng300.selfcheckout.attendant.AttendantStationDatabase;
-import ca.ucalgary.seng300.selfcheckout.attendant.AttendantStationGuiFacade;
-import ca.ucalgary.seng300.selfcheckout.attendant.AttendantStationLogic;
+import SelfCheckOut_Software.attendant.AttendantStationDatabase;
+import SelfCheckOut_Software.attendant.AttendantStationGuiFacade;
+import SelfCheckOut_Software.attendant.AttendantStationLogic;
 
 /**
  *

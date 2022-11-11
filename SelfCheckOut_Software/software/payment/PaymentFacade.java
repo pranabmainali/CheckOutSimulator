@@ -5,8 +5,8 @@ import java.math.RoundingMode;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-import org.lsmr.selfcheckout.devices.SelfCheckoutStation;
-import ca.ucalgary.seng300.selfcheckout.software.SelfCheckoutStationLogic;
+import SelfCheckOut_Hardware.devices.SelfCheckoutStation;
+import SelfCheckOut_Software.software.SelfCheckoutStationLogic;
 
 public class PaymentFacade {
 	private SelfCheckoutStation scs;

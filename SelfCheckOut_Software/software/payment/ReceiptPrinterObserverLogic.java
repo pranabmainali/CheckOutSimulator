@@ -4,18 +4,18 @@ import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.Map;
 
-import org.lsmr.selfcheckout.devices.EmptyException;
-import org.lsmr.selfcheckout.devices.OverloadException;
-import org.lsmr.selfcheckout.devices.ReceiptPrinter;
-import org.lsmr.selfcheckout.devices.SelfCheckoutStation;
-import org.lsmr.selfcheckout.devices.observers.ReceiptPrinterObserver;
-import org.lsmr.selfcheckout.products.BarcodedProduct;
-import org.lsmr.selfcheckout.products.PLUCodedProduct;
-import org.lsmr.selfcheckout.products.Product;
+import SelfCheckOut_Hardware.devices.EmptyException;
+import SelfCheckOut_Hardware.devices.OverloadException;
+import SelfCheckOut_Hardware.devices.ReceiptPrinter;
+import SelfCheckOut_Hardware.devices.SelfCheckoutStation;
+import SelfCheckOut_Hardware.devices.observers.ReceiptPrinterObserver;
+import SelfCheckOut_Hardware.products.BarcodedProduct;
+import SelfCheckOut_Hardware.products.PLUCodedProduct;
+import SelfCheckOut_Hardware.products.Product;
 
-import ca.ucalgary.seng300.selfcheckout.attendant.AttendantStationLogic;
-import ca.ucalgary.seng300.selfcheckout.software.SelfCheckoutStationLogic;
-import ca.ucalgary.seng300.selfcheckout.software.SelfCheckoutStationObserverLogic;
+import SelfCheckOut_Software.attendant.AttendantStationLogic;
+import SelfCheckOut_Software.software.SelfCheckoutStationLogic;
+import SelfCheckOut_Software.software.SelfCheckoutStationObserverLogic;
 
 public class ReceiptPrinterObserverLogic extends SelfCheckoutStationObserverLogic
 	implements ReceiptPrinterObserver {

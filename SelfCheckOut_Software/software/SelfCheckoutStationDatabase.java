@@ -4,8 +4,8 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
-import org.lsmr.selfcheckout.external.CardIssuer;
-import org.lsmr.selfcheckout.external.ProductDatabases;
+import SelfCheckOut_Hardware.external.CardIssuer;
+import SelfCheckOut_Hardware.external.ProductDatabases;
 
 /**
  * Singleton so that all stations can access the same database easily.

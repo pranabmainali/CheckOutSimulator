@@ -2,9 +2,9 @@ package SelfCheckOut_Software.software.payment;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
-import org.lsmr.selfcheckout.devices.SelfCheckoutStation;
-import ca.ucalgary.seng300.selfcheckout.software.SelfCheckoutStationLogic;
-import ca.ucalgary.seng300.selfcheckout.software.SelfCheckoutStationPhases.minorPhase;
+import SelfCheckOut_Hardware.devices.SelfCheckoutStation;
+import SelfCheckOut_Software.software.SelfCheckoutStationLogic;
+import SelfCheckOut_Software.software.SelfCheckoutStationPhases.minorPhase;
 
 public class FinishCheckoutLogic {
 	private SelfCheckoutStation scs;

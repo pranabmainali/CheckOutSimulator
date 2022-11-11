@@ -6,8 +6,8 @@ package SelfCheckOut_Software.software.gui;
 
 import java.util.ArrayList;
 
-import org.lsmr.selfcheckout.external.ProductDatabases;
-import ca.ucalgary.seng300.selfcheckout.attendant.AttendantStationGuiFacade;
+import SelfCheckOut_Hardware.external.ProductDatabases;
+import SelfCheckOut_Software.attendant.AttendantStationGuiFacade;
 
 /**
  *

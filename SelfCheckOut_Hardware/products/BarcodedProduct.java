@@ -2,9 +2,9 @@ package SelfCheckOut_Hardware.products;
 
 import java.math.BigDecimal;
 
-import org.lsmr.selfcheckout.Barcode;
-import org.lsmr.selfcheckout.NullPointerSimulationException;
-import org.lsmr.selfcheckout.SimulationException;
+import SelfCheckOut_Hardware.Barcode;
+import SelfCheckOut_Hardware.NullPointerSimulationException;
+import SelfCheckOut_Hardware.SimulationException;
 
 /**
  * Represents products with barcodes. Such products always have prices per-unit.
