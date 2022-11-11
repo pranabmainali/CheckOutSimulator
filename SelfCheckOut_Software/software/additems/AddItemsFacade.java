@@ -1,4 +1,4 @@
-package ca.ucalgary.seng300.selfcheckout.software.additems;
+package SelfCheckOut_Software.software.additems;
 
 import java.math.BigDecimal;
 import java.util.AbstractMap.SimpleEntry;

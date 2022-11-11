@@ -1,4 +1,4 @@
-package ca.ucalgary.seng300.selfcheckout.attendant;
+package SelfCheckOut_Software.attendant;
 
 import java.util.ArrayList;
 import java.util.List;

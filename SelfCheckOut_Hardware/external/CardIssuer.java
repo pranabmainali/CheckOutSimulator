@@ -1,4 +1,4 @@
-package org.lsmr.selfcheckout.external;
+package SelfCheckOut_Hardware.external;
 
 import java.math.BigDecimal;
 import java.util.Calendar;

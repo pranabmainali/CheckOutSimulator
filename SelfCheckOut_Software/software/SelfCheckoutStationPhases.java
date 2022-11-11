@@ -1,4 +1,4 @@
-package ca.ucalgary.seng300.selfcheckout.software;
+package SelfCheckOut_Software.software;
 
 import org.lsmr.selfcheckout.devices.SelfCheckoutStation;
 

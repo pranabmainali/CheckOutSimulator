@@ -1,4 +1,4 @@
-package org.lsmr.selfcheckout.devices.observers;
+package SelfCheckOut_Hardware.devices.observers;
 
 /**
  * Represents observers that respond only to enable/disable events on touch

@@ -1,4 +1,5 @@
-package org.lsmr.selfcheckout.external;
+package SelfCheckOut_Hardware.external;
+
 
 import java.util.HashMap;
 import java.util.Map;

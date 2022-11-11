@@ -1,4 +1,4 @@
-package ca.ucalgary.seng300.selfcheckout.software.payment;
+package SelfCheckOut_Software.software.payment;
 
 import org.lsmr.selfcheckout.devices.BanknoteSlot;
 import org.lsmr.selfcheckout.devices.SelfCheckoutStation;
