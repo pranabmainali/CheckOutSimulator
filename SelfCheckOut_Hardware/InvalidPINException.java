@@ -1,4 +1,4 @@
-package org.lsmr.selfcheckout;package SelfCheckOut_Hardware;
+package SelfCheckOut_Hardware;
 import java.io.IOException;
 
 /**

@@ -1,6 +1,6 @@
 package SelfCheckOut_Hardware.devices.observers;
 
-import org.lsmr.selfcheckout.devices.AbstractDevice;
+import SelfCheckOut_Hardware.devices.AbstractDevice;
 
 /**
  * This class represents the abstract interface for all device observers. All

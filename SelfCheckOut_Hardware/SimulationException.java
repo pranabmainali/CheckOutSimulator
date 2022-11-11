@@ -1,4 +1,4 @@
-package org.lsmr.selfcheckout;package SelfCheckOut_Hardware;
+package SelfCheckOut_Hardware;
 /**
  * An exception that can be raised when the behaviour within the simulator makes
  * no sense, typically when it has not been configured correctly. This is
