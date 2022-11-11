@@ -1,4 +1,4 @@
-package org.lsmr.selfcheckout.devices;
+package SelfCheckOut_Hardware.devices;
 
 import java.io.IOException;
 import java.util.concurrent.ThreadLocalRandom;

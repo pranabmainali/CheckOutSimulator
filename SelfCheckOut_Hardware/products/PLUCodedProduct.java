@@ -1,4 +1,4 @@
-package org.lsmr.selfcheckout.products;
+package SelfCheckOut_Hardware.products;
 
 import java.math.BigDecimal;
 

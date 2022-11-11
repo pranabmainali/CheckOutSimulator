@@ -1,4 +1,4 @@
-package org.lsmr.selfcheckout.devices;
+package SelfCheckOut_Hardware.devices;
 
 import org.lsmr.selfcheckout.Coin;
 import org.lsmr.selfcheckout.IllegalConfigurationPhaseSimulationException;

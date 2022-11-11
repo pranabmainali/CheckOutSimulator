@@ -1,4 +1,4 @@
-package org.lsmr.selfcheckout.devices;
+package SelfCheckOut_Hardware.devices;
 
 /**
  * Represents a simple device (like, say, a tube or just a physical connection)

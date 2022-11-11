@@ -1,4 +1,4 @@
-package org.lsmr.selfcheckout.devices.observers;
+package SelfCheckOut_Hardware.devices.observers;
 
 import org.lsmr.selfcheckout.devices.BanknoteSlot;
 

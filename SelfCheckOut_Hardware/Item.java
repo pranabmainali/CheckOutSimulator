@@ -1,4 +1,4 @@
-package org.lsmr.selfcheckout;
+package SelfCheckOut_Hardware;
 
 /**
  * Abstract base class of items for sale, each with a particular weight.

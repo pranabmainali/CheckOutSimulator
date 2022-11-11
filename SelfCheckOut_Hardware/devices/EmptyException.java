@@ -1,4 +1,4 @@
-package org.lsmr.selfcheckout.devices;
+package SelfCheckOut_Hardware.devices;
 
 /**
  * Represents the situation when a device is emptied but an attempt is made to

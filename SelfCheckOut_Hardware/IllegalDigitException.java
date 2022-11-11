@@ -1,4 +1,4 @@
-package org.lsmr.selfcheckout;
+package SelfCheckOut_Hardware;
 
 /**
  * Signals that an illegal character has been used where a digit (0-9) was

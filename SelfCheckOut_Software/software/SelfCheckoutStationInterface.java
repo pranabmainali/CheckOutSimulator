@@ -1,4 +1,4 @@
-package ca.ucalgary.seng300.selfcheckout.software;
+package SelfCheckOut_Software.software;
 
 import java.math.*;
 import org.lsmr.selfcheckout.*;

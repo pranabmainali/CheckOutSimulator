@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JPanel.java to edit this template
  */
-package ca.ucalgary.seng300.selfcheckout.software.gui;
+package SelfCheckOut_Software.software.gui;
 
 import ca.ucalgary.seng300.selfcheckout.software.SelfCheckoutStationLogic;
 

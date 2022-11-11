@@ -1,4 +1,4 @@
-package org.lsmr.selfcheckout;
+package SelfCheckOut_Hardware;
 
 /**
  * Represents items for sale, each with a particular barcode and weight.

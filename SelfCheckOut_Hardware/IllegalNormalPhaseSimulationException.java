@@ -1,4 +1,4 @@
-package org.lsmr.selfcheckout;
+package SelfCheckOut_Hardware;
 
 /**
  * An exception that can be raised when a method is called inappropriately

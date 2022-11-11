@@ -1,4 +1,4 @@
-package org.lsmr.selfcheckout.devices;
+package SelfCheckOut_Hardware.devices;
 
 /**
  * Represents situations where a device has been overloaded, in terms of weight,

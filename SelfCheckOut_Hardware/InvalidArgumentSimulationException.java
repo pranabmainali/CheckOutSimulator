@@ -1,4 +1,4 @@
-package org.lsmr.selfcheckout;
+package SelfCheckOut_Hardware;
 
 /**
  * An exception that can be raised when an invalid argument is passed inside the

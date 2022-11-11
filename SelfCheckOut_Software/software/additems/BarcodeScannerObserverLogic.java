@@ -1,4 +1,4 @@
-package ca.ucalgary.seng300.selfcheckout.software.additems;
+package SelfCheckOut_Software.software.additems;
 
 import org.lsmr.selfcheckout.Barcode;
 import org.lsmr.selfcheckout.devices.BarcodeScanner;

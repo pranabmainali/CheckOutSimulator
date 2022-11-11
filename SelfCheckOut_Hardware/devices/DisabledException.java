@@ -1,4 +1,4 @@
-package org.lsmr.selfcheckout.devices;
+package SelfCheckOut_Hardware.devices;
 
 /**
  * Issued when a device cannot perform its usual functions because it has been

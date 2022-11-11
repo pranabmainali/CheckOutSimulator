@@ -1,4 +1,4 @@
-package org.lsmr.selfcheckout.devices;
+package SelfCheckOut_Hardware.devices;
 
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;

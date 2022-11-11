@@ -1,4 +1,4 @@
-package org.lsmr.selfcheckout;
+package SelfCheckOut_Hardware;
 
 /**
  * Represents numerals (i.e., number characters) referred to as "Arabic numbers"

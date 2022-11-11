@@ -1,4 +1,4 @@
-package ca.ucalgary.seng300.selfcheckout.software.payment;
+package SelfCheckOut_Software.software.payment;
 
 import java.math.BigDecimal;
 
