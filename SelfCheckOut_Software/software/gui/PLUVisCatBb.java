@@ -66,7 +66,7 @@ public class PLUVisCatBb extends AbstractSCSGuiPanel {
             }
         });
 
-        bananaButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/banana200px.png"))); // NOI18N
+        bananaButton.setIcon(new javax.swing.ImageIcon("Icons/banana200px.png")); // NOI18N
         bananaButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton3ActionPerformed(evt);

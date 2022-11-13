@@ -65,7 +65,7 @@ public class PLUVisCatAa extends AbstractSCSGuiPanel {
             }
         });
 
-        appleButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/apple200px.png"))); // NOI18N
+        appleButton.setIcon(new javax.swing.ImageIcon("Icons/apple200px.png")); // NOI18N
         appleButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton3ActionPerformed(evt);
