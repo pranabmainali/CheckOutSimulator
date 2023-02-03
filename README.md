@@ -5,4 +5,4 @@ This program features a hardware folder which is meant to simulate hardware conn
 
 In order to simulate this software yourself clone download this repository, open the run.java file and populate the database with your own products.
 
-To see a video presentation of the simulation click go to https://pranabmainali.com/selfcheckoutstation/checkoutstation. 
+To see a video presentation of the simulation go to https://pranabmainali.com/selfcheckoutstation/checkoutstation. 
